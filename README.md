@@ -30,11 +30,13 @@ Make sure you have the following installed:
 
 ### Installation
 
-1.  **Clone the repository:**
+If you received a slimmed-down archive of this project (e.g., `project_files_slim.zip`) that excludes `node_modules`, follow these steps:
+
+1.  **Extract the archive:**
 
     ```bash
-    git clone https://github.com/your-username/the-current.git
-    cd the-current
+    unzip project_files_slim.zip
+    cd the-current # or wherever you extracted the files
     ```
 
 2.  **Install dependencies:**
@@ -44,6 +46,14 @@ Make sure you have the following installed:
     # or
     yarn install
     ```
+
+If you cloned the repository directly, simply run:
+
+```bash
+npm install
+# or
+yarn install
+```
 
 ### API Key Configuration
 
